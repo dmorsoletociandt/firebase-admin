@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "local:get": "node index.js --env=local --action=get",
+    "local:getById": "node index.js --env=local --action=getById --id=c686c233-2022-404a-9483-c5f8d3c89e9f",
+    "local:delete": "node index.js --env=local --action=delete",
+    "dev:get": "node index.js --env=dev --action=get",
+    "dev:getById": "node index.js --env=dev --action=getById",
+    "dev:delete": "node index.js --env=dev --action=delete"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.10.1"
+  }
+}
